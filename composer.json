@@ -1,0 +1,31 @@
+{
+  "name" : "coolms/cldr",
+  "description" : "CoolMS2 CLDR Module",
+  "version" : "0.1.0",
+  "type" : "library",
+  "keywords" : [ "zf2", "coolms", "coolms2", "cldr" ],
+  "homepage" : "https://github.com/coolms/cldr",
+  "license" : "BSD-3-Clause",
+  "authors" : [ {
+    "name" : "Dmitry Popov",
+    "email" : "d.popov@altgraphic.com",
+    "role" : "Developer"
+  } ],
+  "require" : {
+    "php" : ">=5.4.0",
+    "coolms/common" : "dev-master@dev"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "~4.5"
+  },
+  "autoload" : {
+    "psr-4" : { "CmsCldr\\" : "src/" }
+  },
+  "autoload-dev" : {
+    "psr-4": { "CmsCldrTest\\" : "tests/" }
+  },
+  "repositories" : [ {
+    "type" : "vcs",
+    "url" : "https://www.github.com/coolms/common"
+  } ]
+}
