@@ -7,6 +7,8 @@ return array(
     'CmsCldr\Mapping\ScriptInterface'                => __DIR__ . '/src/Mapping/ScriptInterface.php',
     'CmsCldr\Mapping\SubdivisionInterface'           => __DIR__ . '/src/Mapping/SubdivisionInterface.php',
     'CmsCldr\Mapping\TerritoryInterface'             => __DIR__ . '/src/Mapping/TerritoryInterface.php',
+    'CmsCldr\Mapping\TerritoryProviderInterface'     => __DIR__ . '/src/Mapping/TerritoryProviderInterface.php',
+    'CmsCldr\Mapping\Traits\TerritoryProviderTrait'  => __DIR__ . '/src/Mapping/Traits/TerritoryProviderTrait.php',
     'CmsCldr\Module'                                 => __DIR__ . '/src/Module.php',
     'CmsCldr\Mvc\Controller\AdminController'         => __DIR__ . '/src/Mvc/Controller/AdminController.php',
     'CmsCldr\Service\TerritoryServiceAwareInterface' => __DIR__ . '/src/Service/TerritoryServiceAwareInterface.php',
