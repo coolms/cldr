@@ -43,6 +43,16 @@ return [
             ],
         ],
     ],
+    'translator' => [
+        'translation_file_patterns' => [
+            [
+                'type' => 'gettext',
+                'base_dir' => __DIR__ . '/../language',
+                'pattern' => '%s.mo',
+                'text_domain' => __NAMESPACE__,
+            ],
+        ],
+    ],
     'view_manager' => [
         'template_path_stack' => [
             __NAMESPACE__ => __DIR__ . '/../view',
